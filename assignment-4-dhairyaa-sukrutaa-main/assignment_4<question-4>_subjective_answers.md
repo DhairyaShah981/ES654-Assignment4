@@ -1,0 +1,4 @@
+# Plot of Norm of theta v/s degree
+
+![Plot_4](https://user-images.githubusercontent.com/76472249/228487447-18fe1892-5631-44c2-9d8b-200c88ae61a6.png)
+The norm of theta represents the magnitude of the coefficients of the linear regression model, and it can be used to measure the complexity of the model. As we increase the degree of the polynomial, the complexity of the model increases and the norm of theta also increases. This is because higher degree polynomials have more coefficients and can fit the training data more closely. This fact can be noticed in the graph above with the norm of theda values increasing almost exponentially with the increase in the degree of the polynomial. Since there is noice added in the dataset, there is a high chance of overfitting which can be noticed through the increasing norm values. 
